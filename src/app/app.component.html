@@ -1,0 +1,27 @@
+<header>
+  <div class="espacioImg">
+    <img class="logoTienda" src="../assets/img/Logo.png" alt="logotienda">
+  </div>
+  <nav>
+    <ul>
+      <li>
+        <a class="opcionMenu" [routerLink]="['inicio']">
+          Inicio
+        </a>
+
+      </li>
+      <li>
+        <a class="opcionMenu" [routerLink]="['productos']">
+          Productos
+        </a>
+
+      </li>
+      <li>
+        <a class="opcionMenu" [routerLink]="['contacto']">
+          Contacto
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+<router-outlet></router-outlet>

@@ -1,0 +1,40 @@
+header {
+    height: 90px;
+    // font-weight: 500;
+    font-size: 1.1rem;
+    position: relative;
+    border-bottom: 1px solid rgba(212, 1, 1, .164);
+    margin-bottom: 30px;
+    z-index: 100;
+    display: flex;
+    width: 100%;
+}
+.espacioImg{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 100%;
+}
+.opcionMenu{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: black;
+} 
+.logoTienda {
+    width: 160px;
+    height: 90px;
+}
