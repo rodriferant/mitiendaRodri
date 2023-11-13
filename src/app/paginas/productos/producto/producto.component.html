@@ -1,2 +1,14 @@
-<div class="titulo">{{titulo}}</div>
-<div class="precio">Bs. {{precio}}</div>
+
+<section class="oneProductSection">
+    <div class="oneProductContainer">
+        <div class="imgContainer">
+            <img class="imgProd" src="{{product?.image}}" alt="imgProd">
+        </div>
+        <div class="infoProduct">
+            <h2>{{product?.title}}</h2>
+            <p class="categoria">{{product?.category}}</p>
+            <p class="description">{{product?.description}}</p>
+            <p>{{product?.price}}</p>
+        </div>
+    </div>
+</section>

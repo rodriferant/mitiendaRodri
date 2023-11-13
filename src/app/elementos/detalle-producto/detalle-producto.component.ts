@@ -17,12 +17,10 @@ export class DetalleProductoComponent {
 
   constructor(private router: Router) {}
   verProducto(){
-        // Supongamos que tienes un identificador único para cada producto, 
-    // // aquí estoy usando '1' como ejemplo. Deberías reemplazarlo con el id real del producto.
-    // const productoId = '1'; 
+
 
     // // Navegar a la ruta del producto con el identificador específico.
-    // this.router.navigate(['/productos/producto', productoId]);
+    this.router.navigate(['/productos/producto/', this.id]);
     this.clic.emit(this.id);
   }
 }
