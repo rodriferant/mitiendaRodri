@@ -4,6 +4,7 @@
   
     <div *ngFor="let producto of datos" class="productos">
       <app-detalle-producto
+        [id]="producto.id"
         [titulo]="producto.title"
         [precio]="producto.price"
         [imagen]="producto.image" (clic)="mostrar($event)" ></app-detalle-producto>

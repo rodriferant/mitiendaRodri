@@ -1,8 +1,8 @@
 <div class="producto">
-  <img class="imgProd" src="{{imagen}}" alt="">
+  <img class="imgProd" src="{{imagen}}" alt="imgProd">
   <div class="infoContenido">
     <div class="titulo">{{titulo}}</div>
     <div class="precio">Bs. {{precio}}</div>
-    <button class="btVer" (click)="verProducto()"> Ver Producto </button>
+    <button class="btVer" [routerLink]="['/productos/producto', id]" (click)="verProducto()"> Ver Producto </button>
   </div>
 </div>
